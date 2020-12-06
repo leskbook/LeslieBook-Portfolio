@@ -9,7 +9,6 @@ body {
     font-family: cursive;
     font-size: 18px;
     line-height: 150%;
-
     color: #333;
   }
     .navbar-nav { 
@@ -19,10 +18,7 @@ body {
   p {
     background-color: white;
   }
-  /*header {
-    background: rgb(116, 9, 9);
-  }*/
-  
+    
   h1 {
     padding: 20px 0;
     margin: 0;
@@ -37,16 +33,40 @@ body {
     font-size: 24px;
     font-family: cursive;
     text-align: left;
-  }  
+     }  
+
+     
   .footer {
-    background-color: #333;
+    background-color: rgb(54, 112, 236);
     padding: 10px;
     text-align: center;
+    font-size: 15px;
     position: absolute; 
     bottom: 0;
     width: 100%;
     left: 0;
   }
-
-
-
+  .form-control {
+    display: block;
+    width: 75%;
+    padding:5px;
+    font-size: 20px; 
+    line-height: normal;
+    background-color: #feee;
+    border: solid #01070e;
+    border-width: thin;
+  }
+  
+  .button {
+    background-color: #2648f0;
+    border:solid;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  
