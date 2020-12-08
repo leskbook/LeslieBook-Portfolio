@@ -1,1 +1,2 @@
-# homework2Portfolio
+This project is meant to display the student Portfolio. I had a lot of difficulty with this assignment. I didn't add an actual portfolio 
+because I really haven't done any work that I am that proud of. 

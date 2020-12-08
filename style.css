@@ -9,7 +9,7 @@ body {
     font-family: cursive;
     font-size: 18px;
     line-height: 150%;
-    color: #333;
+    background-image: url(/Images/bg.png);
   }
     .navbar-nav { 
       margin-left: auto; 
@@ -30,10 +30,16 @@ body {
   
   h2 {
     padding: 20px 0;
-    font-size: 24px;
+    font-size: 30px;
     font-family: cursive;
-    text-align: left;
+    text-align: justify;
+    margin-top: 20px;
      }  
+   
+  h3 {
+    font-size: 20px;
+    font-family: cursive;
+  }   
 
      
   .footer {
@@ -69,4 +75,18 @@ body {
     margin: 4px 2px;
     cursor: pointer;
   }
+  .row {
+    padding-top: 20px;
+    max-height: fit-content;
+  }
+  #img {
+    width: 150px;
+    height: 123px;
+    padding-bottom: 10px;
+       
+  }
+  .col-md-4 {
+    
+  }
+
   
