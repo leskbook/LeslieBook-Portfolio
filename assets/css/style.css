@@ -1,7 +1,6 @@
 * {
     box-sizing: border-box;
-  }
-
+}
 
 body {
     padding: 45px;
@@ -10,62 +9,63 @@ body {
     font-size: 18px;
     line-height: 150%;
     background-image: url(/Images/bg.png);
-  }
-    .navbar-nav { 
-      margin-left: auto; 
-  }   
-  
-  p {
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+p {
     background-color: white;
-  }
-    
-  h1 {
+}
+
+h1 {
     padding: 20px 0;
     margin: 0;
     margin-bottom: 20px;
     font-size: 28px;
     color: #eee;
     text-align: center;
-  }
-  
-  h2 {
+}
+
+h2 {
     padding: 20px 0;
     font-size: 30px;
     font-family: cursive;
     text-align: justify;
     margin-top: 20px;
-     }  
-   
-  h3 {
+}
+
+h3 {
     font-size: 20px;
     font-family: cursive;
-  }   
+}
 
-     
-  .footer {
+.footer {
     background-color: rgb(54, 112, 236);
     padding: 10px;
     text-align: center;
     font-size: 15px;
-    position: absolute; 
+    position: absolute;
     bottom: 0;
     width: 100%;
     left: 0;
-  }
-  .form-control {
+}
+
+.form-control {
     display: block;
     width: 75%;
-    padding:5px;
-    font-size: 20px; 
+    padding: 5px;
+    font-size: 20px;
     line-height: normal;
     background-color: #feee;
     border: solid #01070e;
     border-width: thin;
-  }
-  
-  .button {
+}
+
+.button {
     background-color: #2648f0;
-    border:solid;
+    border: solid;
     color: white;
     padding: 15px 32px;
     text-align: center;
@@ -74,19 +74,15 @@ body {
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
-  }
-  .row {
+}
+
+.row {
     padding-top: 20px;
     max-height: fit-content;
-  }
-  #img {
+}
+
+#img {
     width: 150px;
     height: 123px;
     padding-bottom: 10px;
-       
-  }
-  .col-md-4 {
-    
-  }
-
-  
+}
