@@ -2,4 +2,4 @@ The purpose of this exercise was to update our existing Portfolio to reflect som
 
 <img src="assets/images/pfp.png" alt="Portfolio page with each project listed">
 
-This updated portfolio is published: 
+This updated portfolio is published: https://leskbook.github.io/homework2Portfolio/
