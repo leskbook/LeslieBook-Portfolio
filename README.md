@@ -1,2 +1,3 @@
-This project is meant to display the student Portfolio. I had a lot of difficulty with this assignment. I didn't add an actual portfolio 
-because I really haven't done any work that I am that proud of. 
+The purpose of this exercise was to update our existing Portfolio to reflect some of the completed work in this course. I made very few changes to the original portfolio html, css and bootstrap. I was able to create a better portfolio.html representation. Each assignment/project is represented by a clickable link to the published application.
+
+<img src="Assets/images/pfp.png" alt="Portfolio page with each project listed">
