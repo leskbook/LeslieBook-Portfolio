@@ -81,6 +81,10 @@ h3 {
     max-height: fit-content;
 }
 
+.LI-profile-badge {
+    float: center;
+}
+
 #img {
     width: 150px;
     height: 123px;
