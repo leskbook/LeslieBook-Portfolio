@@ -82,7 +82,7 @@ h3 {
 }
 
 .LI-profile-badge {
-    padding-left: 33%;
+    padding-left: 33% !important;
 }
 
 #img {
