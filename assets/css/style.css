@@ -8,7 +8,7 @@ body {
     font-family: cursive;
     font-size: 18px;
     line-height: 150%;
-    background-image: url(/Images/bg.png);
+    background-image: url(/assets/images/bg);
 }
 
 .navbar-nav {
@@ -59,8 +59,8 @@ h3 {
     font-size: 20px;
     line-height: normal;
     background-color: #feee;
-    border: solid #01070e;
-    border-width: thin;
+    /* border: solid #01070e;
+    border-width: thin; */
 }
 
 .button {
@@ -82,7 +82,7 @@ h3 {
 }
 
 .LI-profile-badge {
-    float: center;
+    padding-left: 33%;
 }
 
 #img {
