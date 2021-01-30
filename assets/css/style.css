@@ -2,13 +2,22 @@
     box-sizing: border-box;
 }
 
+html {
+    height: 100%;
+}
+
+
+/* body {
+    
+    max-height: 100%;
+} */
+
 body {
     padding: 45px;
     margin: 0;
     font-family: cursive;
     font-size: 18px;
     line-height: 150%;
-    background-image: url(/assets/images/bg);
 }
 
 .navbar-nav {
@@ -17,6 +26,8 @@ body {
 
 p {
     background-color: white;
+    font-family: cursive;
+    text-align: center;
 }
 
 h1 {
@@ -39,46 +50,63 @@ h2 {
 h3 {
     font-size: 20px;
     font-family: cursive;
+    text-align: left;
+}
+
+h4 {
+    padding: 20px 0;
+    font-size: 30px;
+    font-family: cursive;
+    text-align: justify;
+    margin-top: 20px;
+}
+
+.card-body {
+    font-family: cursive;
+    text-align: center;
 }
 
 .footer {
-    background-color: rgb(54, 112, 236);
+    background-color: gray;
     padding: 10px;
     text-align: center;
-    font-size: 15px;
+    /* font-size: 15px;
     position: absolute;
     bottom: 0;
     width: 100%;
-    left: 0;
+    left: 0; */
 }
 
 .form-control {
     display: block;
-    width: 75%;
+    width: 50%;
     padding: 5px;
     font-size: 20px;
     line-height: normal;
-    background-color: #feee;
-    /* border: solid #01070e;
-    border-width: thin; */
+    background-color: rgba(255, 238, 238, 0.568);
+    border: solid #01070e;
+    border-width: thin;
 }
 
 .button {
-    background-color: #2648f0;
+    background-color: #01070e;
+    border-radius: 12px;
     border: solid;
     color: white;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 10px;
     margin: 4px 2px;
     cursor: pointer;
 }
 
 .row {
     padding-top: 20px;
-    max-height: fit-content;
+    padding-bottom: 20px;
+    flex-direction: column;
+    font-family: cursive;
 }
 
 .LI-profile-badge {

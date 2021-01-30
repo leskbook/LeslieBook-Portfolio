@@ -13,62 +13,100 @@
     <title>Portfolio</title>
 
     <!-- Bootstrap CDN -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js " async defer></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="./assets/css/style.css">
 
 </head>
 
-<body>
-    <!-- Start Nav -->
-    <nav class="navbar navbar fixed-top navbar-expand-lg navbar-light bg-primary">
-        <span class="navbar-brand mb-1 h2">Leslie Book</span>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+<body class="wrapper">
+
+    <!--Start Nav-->
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">Leslie Book</a>
+            </div>
             <ul class="nav navbar-nav navbar-right">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">About</a>
+                <li class="active"><a href="index.html">About Me</a></li>
+                <li><a href="contact.html">Contact Me</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li>
+                    <a href="https://github.com/leskbook" target="_blank"><img src="./assets/images/logo.png">GitHub</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
+                <li>
+                    <a href="https://www.linkedin.com/in/lesliebook/" target="_blank"><img src="./assets/images/vmp.png"></a>
                 </li>
             </ul>
         </div>
     </nav>
     <!-- End Nav -->
+    <!-- </body> -->
 
+    <!--Begin Container-->
+    <main class="container portfolio">
+        <h2>Portfolio</h2>
+        <div class="row">
+            <div class="col-md-6">
+
+                <div class="card">
+                    <h3 class="card-text"> Daily Horoscope and Tarot Reading</h3><br>
+                    <img class="card-img-top" src="./assets/images/images.png" alt="Horoscope and Tarot">
+                    <div class="card-body">
+
+                        <a href="https://asheth22.github.io/Astrozoders/" class="btn btn-info">Astrozoders</a>
+                        <a href="https://github.com/asheth22/Astrozoders" class="btn btn-info">Github Repo</a>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card">
+                    <h3 class="card-text">Weather Dashboard</h3><br>
+                    <img class="card-img-top" src="./assets/images/wd.png" alt="Weather Dashboard">
+                    <div class="card-body">
+                        <a href="https://leskbook.github.io/HW6WeatherApp/" class="btn btn-info">Weather Dashboard</a>
+                        <a href="https://github.com/leskbook/HW6WeatherApp" class="btn btn-info">Github Repo</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <h3 class="card-text">Code Quiz - Trivia Addition</h3><br>
+                    <img class="card-img-top" src="./assets/images/cq.jpg" alt="Trivia Quiz">
+                    <div class="card-body">
+                        <a href="https://leskbook.github.io/HW4-CodeQuiz/" target="_blank" rel="noopener" class="btn btn-info">Code-Quiz</a>
+                        <a href="https://github.com/leskbook/HW4-CodeQuiz" target="_blank" rel="noopener" class="btn btn-info">Github Repo</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card">
+                    <h3 class="card-text">Daily Planner</h3><br>
+                    <img class="card-img-top" src="./assets/images/clipboard.jpg" alt="Daily Planner">
+                    <div class="card-body">
+                        <a href="https://leskbook.github.io/HW5Scheduler/" target="_blank" class="btn btn-info">Daily Planner</a>
+                        <a href="https://github.com/leskbook/HW5Scheduler" target="_blank" class="btn btn-info">Github Repo</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <!--End Container-->
     <!--Start footer-->
+
     <div class="footer">
-        <p>Copyright 2020 -- Leslie Book</p>
+        <p>Copyright 2021 -- Leslie Book </p>
     </div>
+
+
     <!--End footer-->
 </body>
-<!--Begin Container-->
-<div class="container">
-    <h2>Portfolio</h2>
-
-</div>
-<div class="container">
-    <div class="row">
-        <div class="col-md-4">
-
-            <a href="https://leskbook.github.io/HW6WeatherApp/"><img src="./assets/images/wd.png" style="padding: 10px;" /></a>
-            <a href="https://leskbook.github.io/HW3-PswGenerate/"><img src="./assets/images/download.png" style="padding: 10px;" /></a>
-            <a href="https://leskbook.github.io/HW4-CodeQuiz/"><img src="./assets/images/cq.jpg" style="padding: 10px;" /></a>
-
-
-
-        </div>
-        <div class="col-md-4">
-            <a href="https://leskbook.github.io/HW5Scheduler/"><img src="./assets/images/clipboard.jpg" style="padding: 10px;" /></a>
-            <a href="https://asheth22.github.io/Astrozoders/"><img src="./assets/images/images.png" style="padding: 10px;" /></a>
-        </div>
-    </div>
-</div>
-<!--End Container-->
 
 </html>
