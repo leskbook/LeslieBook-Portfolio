@@ -1,6 +1,6 @@
 # Portfolio
 
-Leslie Book - Professional Portfolio
+Leslie Book - Professional Portfolio - Deployed Application - https://leskbook.github.io/homework2Portfolio/
 
 This portfolio highlights my professional history as well as my current full stack development progress/skills.
 There is a link to my top five projects as well as links to my contact information and my detailed resume. The portfolio is user friendly and mobile responsive.
